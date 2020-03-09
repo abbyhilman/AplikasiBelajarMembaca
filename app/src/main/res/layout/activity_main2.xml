@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2"
+    android:orientation="vertical"
+    android:background="@drawable/copy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/blocks"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:id="@+id/btnp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/belajar"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:textSize="50dp"
+            android:layout_marginLeft="120dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toys"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="100dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/student"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:id="@+id/btnp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/bermain"
+            android:fontFamily="casual"
+            android:textAllCaps="false"
+            android:textSize="50dp"
+            android:layout_marginLeft="120dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/jellyfish"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="100dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/BtnExit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icon" />
+
+        <Button
+            android:id="@+id/btnemail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/doc"
+            android:onClick="browser1" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

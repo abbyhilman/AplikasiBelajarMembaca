@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main13"
+    android:orientation="vertical"
+    android:background="@drawable/copy">
+
+    <ImageView
+        android:id="@+id/bigboss"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icboss" />
+
+
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="BERHASIL!!" />
+
+
+    <TextView
+        android:id="@+id/textBtn"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:textColor="#AD87FF"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kembali" />
+
+
+
+</LinearLayout>
